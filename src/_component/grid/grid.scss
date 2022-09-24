@@ -1,0 +1,65 @@
+.grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 1rem;
+  width: 304px;
+
+  &__row {
+    &-1{
+      grid-column: span 1;
+      height: 3rem;
+      background-color: peru;
+    }
+
+    &-2{
+      grid-column: span 2;
+      height: 3rem;
+      background-color: grey;
+    }
+
+    &-3{
+      grid-column: span 3;
+      height: 3rem;
+      background-color: red;
+    }
+
+    &-4{
+      grid-column: span 4;
+      height: 3rem;
+      background-color: blue;
+    }
+
+    &-12 {
+      height: 2rem;
+      grid-column: 1/-1;
+      grid-column: span 4;
+    }
+
+    &-full {
+      height: 2rem;
+      grid-column: 1/-1;
+      background-color: yellow;
+
+    }
+  }
+  //stai departe de zona aceasta
+}
+
+//tableta
+@media screen and (min-width:1024px) {
+  .grid {
+    // grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    width: 768px;
+    grid-template-columns: repeat(8, 1fr);
+  }
+}
+
+//desktop
+@media screen and (min-width:1440px) {
+  .grid {
+    // grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    width: 1200px;
+    grid-template-columns: repeat(12, 1fr);
+  }
+}
+
