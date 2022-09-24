@@ -22,7 +22,7 @@
   },
   "config": {
     "customUrl": "http://pug-starter.codetap.academy",
-    "githubUrl": "https://github.com/florin-bizgan/my-cv-starter.gitgit",
+    "githubUrl": "http://github.com/florin-bizgan/my-cv-starter.gitgit",
     "deployToGithubIo": true,
     "directory": {
       "development": "tmp",
