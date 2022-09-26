@@ -1,0 +1,29 @@
+-
+  var {skillData, skillBox, legendBox} = data.skill
+.box__gap-8 
+  .box__info-box
+    .box__section-title= skillBox.title
+  .box__info-box 
+    each content in skillBox.boxContent 
+      .box__descriere= content 
+
+.wrap
+  each skill in skillData
+    .wrap 
+      title= skill.title
+
+      .skillContainer
+        each element in skill.skillList
+          div(
+            class= `pill--${element.color}`
+          )= element.skillName
+
+  .box__info-box-shadow 
+    .box__section-title= legendBox.title
+    each regula, cheie in legendBox.boxContent
+      .legendContainer
+        div(
+          class= `pill--${regula.color}`
+        )= cheie+1
+        .box__descriere= regula.text
+//- pre= JSON.stringify(frontEnd, null, 2)

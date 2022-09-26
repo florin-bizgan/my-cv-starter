@@ -29,18 +29,18 @@
       background-color: blue;
     }
 
-    &-12 {
-      height: 2rem;
-      grid-column: 1/-1;
-      grid-column: span 4;
-    }
+    // &-12 {
+    //   height: 2rem;
+    //   grid-column: 1/-1;
+    //   grid-column: span 4;
+    // }
 
-    &-full {
-      height: 2rem;
-      grid-column: 1/-1;
-      background-color: yellow;
+    // &-full {
+    //   height: 2rem;
+    //   grid-column: 1/-1;
+    //   background-color: yellow;
 
-    }
+    // }
   }
   //stai departe de zona aceasta
 }
@@ -62,4 +62,3 @@
     grid-template-columns: repeat(12, 1fr);
   }
 }
-

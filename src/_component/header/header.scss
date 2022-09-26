@@ -1,4 +1,5 @@
 //mobile
+
 .header {
   cursor: pointer;
 
@@ -18,7 +19,7 @@
     line-height: 24px;
     display: flex;
     justify-content: center;
-    transition: 250ms;
+    transition: 250ms; // animation to be removed if required
   }
 }
 

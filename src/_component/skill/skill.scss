@@ -1,0 +1,50 @@
+@import '../config/config.skill.scss';
+
+.wrap {
+  display: flex;
+  gap: 1rem;
+  flex-direction: column;
+}
+
+.legendContainer {
+  display: flex;
+  gap: 0.5rem;
+  align-items: start;
+  justify-content: start;
+}
+
+.skillContainer {
+  display: flex;
+  flex-flow: row wrap;
+  gap: 0.5rem;
+}
+
+.pill {
+  &--red {
+    background-color: $red;
+  }
+  &--green {
+    background-color: $green;
+  }
+  &--blue {
+    background-color: $blue;
+  }
+  &--red,
+  &--green,
+  &--blue {
+    border-radius: 0.75rem;
+    padding: 4px 8px;
+    font-style: italic;
+    font-size: 14px;
+    line-height: 16px;
+    font-weight: 400;
+  }
+}
+
+.title {
+  line-height: 21px;
+  font-size: 18px;
+  font-weight: 400;
+  font-style: italic;
+  padding: 8px;
+}
