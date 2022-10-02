@@ -1,27 +1,28 @@
 %refolosibil {
+  cursor: pointer;
   color: white;
-
   border-radius: 20px;
   height: 35px;
   line-height: 19px;
   border: 0;
-
   padding: 8px 16px;
-
   display: flex;
   gap: 8px;
+  margin-bottom: 57px;
 }
 
 .buton {
   &__normal {
     &--rosu {
       @extend %refolosibil;
-
-      background-color: #c62a08;
+      margin-top: 24px;
+      margin-bottom: 32px;
+      background-color: #CC0000;
     }
 
     &--verde {
       @extend %refolosibil;
+      margin: 16px 0px 48px 0px;
       
       background-color: #046b2d;
     }
@@ -41,5 +42,15 @@
     display: flex;
     justify-content: center;
     align-items: center;
+  }
+}
+
+.space {
+  &__1 {
+    &__2 {
+      display: flex;
+      flex-direction: row;
+      background-color: #c62a08;
+    }
   }
 }
