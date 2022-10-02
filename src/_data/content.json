@@ -10,6 +10,118 @@
     ],
     "downloadButtonLabel": "Download my CV"
   },
+  "skills": {
+    "sectionTitle": "Skills",
+    "description": [
+      "I am working on improving the candidate's experience during the job search time.",
+      "I work every day with Remix, React, Hooks, Redux, NextJS, and Firebase with JavaScript and TypeScript to create amazing Apps."
+    ],
+    "legend": {
+      "title": "Legend",
+      "itemList": [
+        {
+          "color": "red",
+          "label": "Skills I love"
+        },
+        {
+          "color": "green",
+          "label": "Skills I`d love to get better at"
+        },
+        {
+          "color": "blue",
+          "label": "Skills I`m good at"
+        }
+      ]
+    },
+    "skillTypeList": [
+      {
+        "category": "Front-end",
+        "skillList": [
+          {
+            "color": "red",
+            "label": "HTML"
+          },
+          {
+            "color": "red",
+            "label": "SASS"
+          },
+          {
+            "color": "red",
+            "label": "React"
+          },
+          {
+            "color": "blue",
+            "label": "HTML"
+          },
+          {
+            "color": "blue",
+            "label": "CSS"
+          },
+          {
+            "color": "green",
+            "label": "Remix"
+          },
+          {
+            "color": "green",
+            "label": "Redux"
+          }
+        ]
+      },
+      {
+        "category": "Back-end",
+        "skillList": [
+          {
+            "color": "red",
+            "label": "Bash"
+          },
+          {
+            "color": "red",
+            "label": "API"
+          },
+          {
+            "color": "blue",
+            "label": "Pug"
+          },
+          {
+            "color": "blue",
+            "label": "Webpack"
+          },
+          {
+            "color": "green",
+            "label": "Gulp"
+          },
+          {
+            "color": "green",
+            "label": "CLI"
+          }
+        ]
+      },
+      {
+        "category": "Other",
+        "skillList": [
+          {
+            "color": "red",
+            "label": "HTML"
+          },
+          {
+            "color": "red",
+            "label": "Remix"
+          },
+          {
+            "color": "blue",
+            "label": "Live Events"
+          },
+          {
+            "color": "blue",
+            "label": "React"
+          },
+          {
+            "color": "green",
+            "label": "Redux"
+          }]
+      }
+    ]
+  },
   "connect": {
     "sectionTitle": "Let`s connect",
     "avatarPath": "picture.jpg",
@@ -185,7 +297,7 @@
       {
         "title": "My CV Starter",
         "skills": "HTML, CSS, PUG, SCSS, Git",
-        "image": "asset/image/company-logo/logo.png (aici pune link catre logo la companie)",
+        "image": "asset/image/company-logo/Blu-3.png",
         "linkIcon": "https://github.com/florin-bizgan/my-cv-starter"
       }
     ]

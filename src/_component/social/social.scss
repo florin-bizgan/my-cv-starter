@@ -1,10 +1,9 @@
 .social {
+  cursor: pointer;
   height: 64px;
   width: 64px;
   border-radius: 32px;
   border-color: ghostwhite;
-  padding: 0px;
-  gap: 8px;
 }
 .round_1 {
   background: linear-gradient(#046B2D, #5C8470);
@@ -23,11 +22,12 @@
   color: white;
 }
 
-// .cv-youtube {
-//   width: 16px;
-//   height: 16px;
-//   border-radius: 50%;
-//   display: flex;
-//   justify-content: center;
-//   align-items: center;
-// }
+.locatie {
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: start;
+  padding: 8px;
+  gap: 16px;
+
+}
