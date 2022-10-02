@@ -1,0 +1,72 @@
+
+@for $i from 1 through 6 {
+  .connect-radio:nth-of-type(#{$i}):checked ~ [data-box="iii-#{$i}"] {
+    display: block;
+  }
+}
+
+
+[data-box] {
+  display: none;
+}
+
+.connect-radio {
+  appearance: none;
+  width: 64px;
+  height: 64px;
+  padding: 8px;
+  border-radius: 32px;
+  background-color: lightblue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  &-reset {
+    appearance: none;
+    width: 16px;
+    height: 16px;
+    background-color: aquamarine;
+    border-radius: 50%;
+      &:after {
+        content: "x";
+        display:flex;
+        justify-content: center;
+      }
+  }
+}
+
+
+
+.box-body {
+  // position: absolute;
+  width: 200px;
+  top: 85px;
+  background-color: antiquewhite;
+  padding: 0 8px ;
+}
+
+.line {
+  height: 2px;
+  background-color: black;
+}
+
+.flex {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 8px 16px;
+  background-color: aqua;
+
+  &-row-space {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+  }
+  &-row {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    justify-content: center;
+  }
+}

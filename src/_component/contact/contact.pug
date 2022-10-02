@@ -1,0 +1,13 @@
+
+-
+  var {boxContent, socialList, sectionTitle} = data.content.connect
+
+.flex-gap16
+  .box__gap-8
+    .box__info-box 
+      .box__section-title= boxContent.boxTitle 
+    .box__info-box 
+      each content in boxContent.content
+        .box__descriere= content 
+
+
