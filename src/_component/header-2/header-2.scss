@@ -1,0 +1,49 @@
+//mobile
+
+.header {
+  cursor: pointer;
+
+  &__camasa-2 {
+    
+    background-color: rgba(204, 128, 15, 0.6);
+    display: flex;
+    justify-content: center;
+    height: auto;
+    font-size: 16px;
+    width: 400;
+  }
+
+  &__title-2 {
+    background-color: rgba(204, 128, 15, 1);
+    width: 304px;
+    color: white;
+    font-size: 24px;
+    padding: 8px;
+    line-height: 24px;
+    display: flex;
+    justify-content: center;
+    transition: 250ms; // animation to be removed if required
+    font-size: 16px;
+    width: 400;
+  }
+}
+
+// tablet
+@media screen and (min-width: 1024px) {
+  .header {
+    &__title-2 {
+      width: 768px;
+      height: auto;
+    }
+  }
+}
+
+// desktop
+@media screen and (min-width: 1440px) {
+  .header {
+    &__title-2 {
+      width: 1200px;
+      height: auto;
+    }
+  }
+}
