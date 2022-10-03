@@ -2,16 +2,18 @@
   var {sectionTitle, nameTitle, jobTitle} = data.content.welcome
 .text
   .text__info-box 
-    .text__info-box 
-      .text__title= nameTitle
+    button.buton__normal--transparent 
+      .orice 
+        .cv-youtube
+    .text__title= nameTitle
 
-    .text__info-box
-      .text__sub-title= jobTitle
+    .text__sub-title= jobTitle
 
-      button.buton__normal--verde
-        .orice
-          .cv-arrow-down
-        | Download
+    button.buton__normal--verde
+      .orice
+        .cv-arrow-down
+      | Download
+  .divider
 
   //- .text__gap-8
   //-   .text__info-box
