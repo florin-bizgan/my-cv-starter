@@ -17,12 +17,8 @@
 
   &__info-box-shadow,
   &__info-box {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
     gap: 8px;
     padding: 8px;
-    margin: none;
   }
   
   &__info-box-shadow {
