@@ -23,6 +23,9 @@
     &--rosu {
       @extend %refolosibil;
       background-color: #CC0000;
+      display: flex;
+      justify-content: center;
+      align-items: center;
     }
 
     &--verde {
@@ -43,7 +46,6 @@
 .orice {
   width: 16px;
   height: 16px;
-  // background-color: palegoldenrod;
   border-radius: 50%;
   display: flex;
   justify-content: center;
