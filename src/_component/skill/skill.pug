@@ -1,12 +1,19 @@
 -
   var {skillData, skillBox, legendBox} = data.skill
-//- include ../header/header
+
 
 .header 
-  .header__camasa 
+  .header__camasa
     .header__title Tech I love to work with
+    //- .header__title= sectionTitle
 // title is hardcode for the moment
 
+.text
+  .text__info-box 
+    button.buton__normal--transparent
+      .orice
+        .cv-youtube
+.divider_top-24
 .box__gap-8
   .box__info-box
     .box__section-title= skillBox.title
@@ -27,6 +34,7 @@
 
   .box__info-box-shadow
     .box__section-title= legendBox.title
+    .divider-16
     each regula, cheie in legendBox.boxContent 
       .legendContainer 
         div(
