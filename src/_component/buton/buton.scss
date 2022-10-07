@@ -18,6 +18,14 @@
   padding: 0.75rem; 
 }
 
+%round_buttons {
+  cursor: pointer;
+  height: 64px;
+  width: 64px;
+  border-radius: 32px;
+  border-color: ghostwhite;
+}
+
 .buton {
   &__normal {
     &--rosu {
@@ -40,8 +48,32 @@
       
       
     }
+  //to be made, not working yet, they have to be reusable
+  &__social{
+    &--facebook {
+      @extend %round_buttons;
+      background: linear-gradient(#046B2D, #5C8470);
+
+    }
+
+    &--github {
+      @extend %round_buttons;
+      background-color: #6B0404;
+    }
+    
+    &--youtube {
+      @extend %round_buttons;
+      background-color: #37046B;
+    }
+    
+    &--linkedin {
+      @extend %round_buttons;
+      background-color: #16A9C9;
+    }
+  }
   }
 }
+
 
 a:visited, 
 a:active {

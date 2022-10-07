@@ -1,12 +1,10 @@
 -
   var {skillData, skillBox, legendBox} = data.skill
 
-
+//- pre= JSON.stringify(skillBox, null, 2)
 .header 
   .header__camasa
-    .header__title Tech I love to work with
-    //- .header__title= sectionTitle
-// title is hardcode for the moment
+    .header__title= skillBox.sectionTitle
 
 .text
   .text__info-box 

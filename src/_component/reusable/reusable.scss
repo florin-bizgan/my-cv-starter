@@ -1,17 +1,24 @@
-.flexReusable {
-  gap: 8px;
+// .flexReusable {
+//   gap: 8px;
+// }
+
+%flex {
+  display: flex;
+  flex-direction: column;
+  
+}
+.flex-gap16 {
+  @extend %flex;
+  gap: 16px;
 }
 
-.flex-gap16 {
-  gap: 16px;
+.box__gap-8 {
+  @extend %flex;
+  gap:8px;
 }
 
 a {
   text-decoration: none;
-}
-
-.divider-48 {
-  height: 48px;
 }
 
 .divider-8 {
@@ -29,3 +36,12 @@ a {
 .divider_bot-32 {
   height: 32px;
 }
+
+.divider-48 {
+  height: 48px;
+}
+
+
+//Buttons 
+
+
