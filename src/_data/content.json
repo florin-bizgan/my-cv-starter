@@ -10,6 +10,14 @@
     ],
     "downloadButtonLabel": "Download my CV"
   },
+  "summary": {
+    "sectionTitle": "Continue reading so you can get to know how I can help you help me help you so everytone gets helped",
+    "nameTitle": "Summary",
+    "description": [
+      "I am working on improving the candidate's experience during the job search time.",
+      "I work every day with Remix, React, Hooks, Redux, NextJS, and Firebase with JavaScript and TypeScript to create amazing Apps."
+    ]
+  },
   "skills": {
     "sectionTitle": "Skills",
     "description": [
