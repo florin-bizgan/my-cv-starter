@@ -145,42 +145,42 @@
         "icon": "github",
         "title": "GitHub",
         "description": "Junior Web Developer",
-        "label": "github",
+        "label": "GitHub",
         "link": "https://github.com/florin-bizgan"
       },
       {
-        "icon": "github",
+        "icon": "linkedin",
         "title": "LinkedIn",
         "description": "We can connect over LinkedIn",
-        "label": "linkedin",
+        "label": "LinkedIn",
         "link": "https://www.linkedin.com/in/florin-bizgan-262994239/"
       },
       {
-        "icon": "github",
+        "icon": "codewars",
         "title": "Codewars",
         "description": "You can see my progress here",
         "label": "Codewars",
         "link": "https://www.codewars.com/users/florin-bizgan"
       },
       {
-        "icon": "github",
+        "icon": "facebook",
         "title": "Facebook",
         "description": "For more social media content about me please follow on Facebook",
-        "label": "facebook",
+        "label": "Facebook",
         "link": "https://www.facebook.com/florin.bizgan/"
       },
       {
-        "icon": "github",
+        "icon": "stackoverflow",
         "title": "Stack Overflow",
         "description": "Visit my Stack Overflow profile down below.",
-        "label": "stackoverflow.com/users/20133050/bizgan-florin?tab=profile",
+        "label": "Stack Overflow",
         "link": "https://stackoverflow.com/users/20133050/bizgan-florin?tab=profile"
       },
       {
-        "icon": "github",
+        "icon": "udemy",
         "title": "Udemy",
         "description": "You can see more of my progress here.",
-        "label": "udemy.com/user/florin-onofrei-bizgan/",
+        "label": "Udemy",
         "link": "https://www.udemy.com/user/florin-onofrei-bizgan/"
       }
 
