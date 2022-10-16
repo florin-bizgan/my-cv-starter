@@ -3,18 +3,17 @@
 @font-face {
   font-family: '#{$icomoon-font-family}';
   src:
-    url('#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?tbo2wj') format('truetype'),
-    url('#{$icomoon-font-path}/#{$icomoon-font-family}.woff?tbo2wj') format('woff'),
-    url('#{$icomoon-font-path}/#{$icomoon-font-family}.svg?tbo2wj##{$icomoon-font-family}') format('svg');
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?jhdhv4') format('truetype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.woff?jhdhv4') format('woff'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.svg?jhdhv4##{$icomoon-font-family}') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
 }
 
-[class^="cv-"],
-[class*=" cv-"] {
+[class^="cv-"], [class*=" cv-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
-  font-family: "#{$icomoon-font-family}" !important;
+  font-family: '#{$icomoon-font-family}' !important;
   speak: never;
   font-style: normal;
   font-weight: normal;
@@ -27,73 +26,230 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.cv-cup-half {
+.cv-linkedin-square {
   &:before {
-    content: $cv-cup-half;
+    content: $cv-linkedin-square; 
   }
 }
-.cv-medal {
+.cv-linkedin {
   &:before {
-    content: $cv-medal;
+    content: $cv-linkedin; 
   }
 }
-.cv-trophy-2 {
+.cv-gmail {
   &:before {
-    content: $cv-trophy-2;
+    content: $cv-gmail;     
+    color: #d14836;
   }
 }
-.cv-trophy-1 {
+.cv-stackoverflow {
   &:before {
-    content: $cv-trophy-1;
+    content: $cv-stackoverflow;     
+    color: #fe7a16;
   }
 }
-.cv-trophy-3 {
+.cv-udemy {
   &:before {
-    content: $cv-trophy-3;
+    content: $cv-udemy;     
+    color: #ec5252;
   }
 }
-.cv-cup-full {
+.cv-linkedin1 {
   &:before {
-    content: $cv-cup-full;
-  }
-}
-.cv-piggy-bank {
-  &:before {
-    content: $cv-piggy-bank;
-  }
-}
-.cv-arrow-down {
-  &:before {
-    content: $cv-arrow-down;
-  }
-}
-.cv-email {
-  &:before {
-    content: $cv-email;
+    content: $cv-linkedin1;     
+    color: #0077b5;
   }
 }
 .cv-github {
   &:before {
-    content: $cv-github;
+    content: $cv-github; 
   }
 }
-.cv-cross {
+.cv-visualstudiocode {
   &:before {
-    content: $cv-cross;
+    content: $cv-visualstudiocode;     
+    color: #007acc;
   }
 }
-.cv-menu {
+.cv-codewars {
   &:before {
-    content: $cv-menu;
+    content: $cv-codewars;     
+    color: #ad2c27;
   }
 }
 .cv-home {
   &:before {
-    content: $cv-home;
+    content: $cv-home; 
+  }
+}
+.cv-play {
+  &:before {
+    content: $cv-play; 
+  }
+}
+.cv-coin-dollar {
+  &:before {
+    content: $cv-coin-dollar; 
+  }
+}
+.cv-coin-euro {
+  &:before {
+    content: $cv-coin-euro; 
+  }
+}
+.cv-coin-pound {
+  &:before {
+    content: $cv-coin-pound; 
+  }
+}
+.cv-coin-yen {
+  &:before {
+    content: $cv-coin-yen; 
+  }
+}
+.cv-trophy {
+  &:before {
+    content: $cv-trophy; 
+  }
+}
+.cv-menu {
+  &:before {
+    content: $cv-menu; 
+  }
+}
+.cv-cross {
+  &:before {
+    content: $cv-cross; 
+  }
+}
+.cv-arrow-down {
+  &:before {
+    content: $cv-arrow-down; 
+  }
+}
+.cv-checkbox-checked {
+  &:before {
+    content: $cv-checkbox-checked; 
+  }
+}
+.cv-amazon {
+  &:before {
+    content: $cv-amazon; 
+  }
+}
+.cv-google {
+  &:before {
+    content: $cv-google; 
+  }
+}
+.cv-facebook {
+  &:before {
+    content: $cv-facebook; 
+  }
+}
+.cv-facebook2 {
+  &:before {
+    content: $cv-facebook2; 
+  }
+}
+.cv-instagram {
+  &:before {
+    content: $cv-instagram; 
+  }
+}
+.cv-whatsapp {
+  &:before {
+    content: $cv-whatsapp; 
+  }
+}
+.cv-spotify {
+  &:before {
+    content: $cv-spotify; 
+  }
+}
+.cv-telegram {
+  &:before {
+    content: $cv-telegram; 
+  }
+}
+.cv-twitter {
+  &:before {
+    content: $cv-twitter; 
   }
 }
 .cv-youtube {
   &:before {
-    content: $cv-youtube;
+    content: $cv-youtube; 
   }
 }
+.cv-youtube2 {
+  &:before {
+    content: $cv-youtube2; 
+  }
+}
+.cv-steam {
+  &:before {
+    content: $cv-steam; 
+  }
+}
+.cv-steam2 {
+  &:before {
+    content: $cv-steam2; 
+  }
+}
+.cv-dropbox {
+  &:before {
+    content: $cv-dropbox; 
+  }
+}
+.cv-github1 {
+  &:before {
+    content: $cv-github1; 
+  }
+}
+.cv-windows {
+  &:before {
+    content: $cv-windows; 
+  }
+}
+.cv-windows8 {
+  &:before {
+    content: $cv-windows8; 
+  }
+}
+.cv-skype {
+  &:before {
+    content: $cv-skype; 
+  }
+}
+.cv-linkedin2 {
+  &:before {
+    content: $cv-linkedin2; 
+  }
+}
+.cv-linkedin21 {
+  &:before {
+    content: $cv-linkedin21; 
+  }
+}
+.cv-stackoverflow1 {
+  &:before {
+    content: $cv-stackoverflow1; 
+  }
+}
+.cv-firefox {
+  &:before {
+    content: $cv-firefox; 
+  }
+}
+.cv-opera {
+  &:before {
+    content: $cv-opera; 
+  }
+}
+.cv-html-five {
+  &:before {
+    content: $cv-html-five; 
+  }
+}
+
