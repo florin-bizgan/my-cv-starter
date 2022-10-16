@@ -3,9 +3,9 @@
 @font-face {
   font-family: '#{$icomoon-font-family}';
   src:
-    url('#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?jhdhv4') format('truetype'),
-    url('#{$icomoon-font-path}/#{$icomoon-font-family}.woff?jhdhv4') format('woff'),
-    url('#{$icomoon-font-path}/#{$icomoon-font-family}.svg?jhdhv4##{$icomoon-font-family}') format('svg');
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?xi33h') format('truetype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.woff?xi33h') format('woff'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.svg?xi33h##{$icomoon-font-family}') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -26,6 +26,11 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.cv-figma {
+  &:before {
+    content: $cv-figma; 
+  }
+}
 .cv-linkedin-square {
   &:before {
     content: $cv-linkedin-square; 
@@ -33,7 +38,32 @@
 }
 .cv-linkedin {
   &:before {
-    content: $cv-linkedin; 
+    content: $cv-linkedin;
+    color: #0078d6;
+  }
+}
+.cv-figma1 {
+  &:before {
+    content: $cv-figma1;     
+    color: #f24e1e;
+  }
+}
+.cv-windows {
+  &:before {
+    content: $cv-windows;     
+    color: #0078d6;
+  }
+}
+.cv-twitch {
+  &:before {
+    content: $cv-twitch;     
+    color: #6441a4;
+  }
+}
+.cv-facebook {
+  &:before {
+    content: $cv-facebook;     
+    color: #1877f2;
   }
 }
 .cv-gmail {
@@ -142,9 +172,9 @@
     content: $cv-google; 
   }
 }
-.cv-facebook {
+.cv-facebook1 {
   &:before {
-    content: $cv-facebook; 
+    content: $cv-facebook1; 
   }
 }
 .cv-facebook2 {
@@ -207,9 +237,9 @@
     content: $cv-github1; 
   }
 }
-.cv-windows {
+.cv-windows1 {
   &:before {
-    content: $cv-windows; 
+    content: $cv-windows1; 
   }
 }
 .cv-windows8 {
