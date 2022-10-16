@@ -3,14 +3,15 @@
 .header 
   .header__orange-wrap 
     .header__orange-front= sectionTitle
-.text-2
-    .text-2__section-title= nameTitle
-    .text-2__info-box 
-      each text in description
-        .text-2__descriere= text
-      .divider_top-24 
-      button.buton__normal--rosu
-        .orice
-          .cv-youtube
-        | Subscribe
-      .divider_bot-32
+
+.text
+  .text__section-title= nameTitle
+  .text__info-box 
+    each text in description
+      .text__descriere= text
+    .divider_top-24 
+    button.buton__normal--rosu
+      .orice
+        .cv-youtube
+      | Subscribe
+    .divider_bot-32

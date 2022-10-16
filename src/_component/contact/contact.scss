@@ -5,6 +5,7 @@
   }
 }
 
+//party of Maria / Vivy code
 
 [data-box] {
   display: none;
@@ -35,8 +36,6 @@
   }
 }
 
-
-
 .box-body {
   // position: absolute;
   width: 200px;
@@ -50,23 +49,24 @@
   background-color: black;
 }
 
-.flex {
-  display: flex;
-  flex-direction: column;
-  gap: 8px;
-  padding: 8px 16px;
-  background-color: aqua;
+// .flex {
+//   display: flex;
+//   flex-direction: column;
+//   gap: 8px;
+//   padding: 8px 16px;
+//   background-color: aqua;
 
-  &-row-space {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+//   &-row-space {
+//     display: flex;
+//     justify-content: space-between;
+//     align-items: center;
     
-  }
-  &-row {
-    display: flex;
-    align-items: center;
-    gap: 8px;
-    justify-content: center;
-  }
-}
+//   }
+//   &-row {
+//     display: flex;
+//     align-items: center;
+//     gap: 8px;
+//     justify-content: center;
+//   }
+// }
+
