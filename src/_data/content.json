@@ -142,54 +142,48 @@
     },
     "socialList": [
       {
-        "iconita": "codetap",
-        "title": "Codetap",
-        "description": "Junior Web Developer with the help of CodeTap Academy",
-        "label": "codetap.academy",
-        "link": "http://codetap.academy"
+        "icon": "github",
+        "title": "GitHub",
+        "description": "Junior Web Developer",
+        "label": "github",
+        "link": "https://github.com/florin-bizgan"
       },
       {
-        "iconita": "gitgub",
-        "title": "Github",
-        "description": "There are more projects where you can see my work with HTML, CSS..",
-        "label": "github.com/florin-bizgan",
-        "link": "http://github.com/florin-bizgan"
-      },
-      {
-        "iconita": "linkedin",
+        "icon": "github",
         "title": "LinkedIn",
-        "description": "We can connect even on LinkedIn",
-        "label": "linkedin.com/in/florin-bizgan-262994239/",
+        "description": "We can connect over LinkedIn",
+        "label": "linkedin",
         "link": "https://www.linkedin.com/in/florin-bizgan-262994239/"
       },
       {
-        "iconita": "stackoverflow",
+        "icon": "github",
+        "title": "Codewars",
+        "description": "You can see my progress here",
+        "label": "Codewars",
+        "link": "https://www.codewars.com/users/florin-bizgan"
+      },
+      {
+        "icon": "github",
+        "title": "Facebook",
+        "description": "For more social media content about me please follow on Facebook",
+        "label": "facebook",
+        "link": "https://www.facebook.com/florin.bizgan/"
+      },
+      {
+        "icon": "github",
         "title": "Stack Overflow",
         "description": "Visit my Stack Overflow profile down below.",
         "label": "stackoverflow.com/users/20133050/bizgan-florin?tab=profile",
         "link": "https://stackoverflow.com/users/20133050/bizgan-florin?tab=profile"
       },
       {
-        "iconita": "codewars",
-        "title": "Codewars",
-        "description": "You can see more of my progress here.",
-        "label": "codewars.com/users/florin-bizgan",
-        "link": "https://www.codewars.com/users/florin-bizgan"
-      },
-      {
-        "iconita": "udemy",
+        "icon": "github",
         "title": "Udemy",
         "description": "You can see more of my progress here.",
         "label": "udemy.com/user/florin-onofrei-bizgan/",
         "link": "https://www.udemy.com/user/florin-onofrei-bizgan/"
-      },
-      {
-        "iconita": "facebook",
-        "title": "Facebook",
-        "description": "Check my facebook and call me :P",
-        "label": "facebook.com/florin.bizgan",
-        "link": "https://www.facebook.com/florin.bizgan/"
       }
+
     ]
   },
   "experience": {

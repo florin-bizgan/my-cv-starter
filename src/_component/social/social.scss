@@ -32,3 +32,93 @@
   gap: 16px;
 
 }
+
+
+
+@for $i from 1 through 6 {
+  .connect-radio:nth-of-type(#{$i}):checked ~ [data-box="iii-#{$i}"] {
+    display: block;
+  }
+}
+
+
+[data-box] {
+  display: none;
+}
+
+.connect-radio {
+  appearance: none;
+  width: 64px;
+  height: 64px;
+  padding: 8px;
+  border-radius: 32px;
+  background-color: lightblue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  &-reset {
+    appearance: none;
+    width: 16px;
+    height: 16px;
+    background-color: transparent;
+    border-radius: 50%;
+      &:after {
+        content: "x";
+        display:flex;
+        justify-content: center;
+      }
+  }
+}
+
+
+
+.box-body {
+  width: 320px;
+  position: relative;
+  flex-basis: 60%;
+  background-color: rgba(15, 102, 204, 0.6);
+  padding: 0 8px ;
+  color: white;
+}
+
+.line {
+  height: 2px;
+  background-color: black;
+}
+
+.flex {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 8px 16px;
+  background-color: rgba(15, 102, 204, 1);
+  width: 100%;
+
+  &-row-space {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+  }
+  &-row {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    justify-content: center;
+  }
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.grid {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+

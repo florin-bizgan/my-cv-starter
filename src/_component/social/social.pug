@@ -1,21 +1,52 @@
-.locatie
-  button.social.facebook
-    .icoana
-      .cv-arrow-down
-  button.social.github
-    .icoana
-      .cv-home
-  button.social.youtube
-    .icoana
-      .cv-menu
-  button.social.linkedin
-    .icoana
-      .cv-youtube
+//- .locatie
+//-   button.social.facebook
+//-     .icoana
+//-       .cv-arrow-down
+//-   button.social.github
+//-     .icoana
+//-       .cv-home
+//-   button.social.youtube
+//-     .icoana
+//-       .cv-menu
+//-   button.social.linkedin
+//-     .icoana
+//-       .cv-youtube
+
+//- .divider_top-24
+-
+  var {boxContent, socialList, sectionTitle, icon} = data.content.connect
 
 .divider_top-24
+.container
+  .grid
+    each social, key in socialList 
+      input.connect-radio(
+        class=`cv-${social.icon}` 
+        type="radio" 
+        id=`connect-radio-${key}`
+        name="radio-c"
+      ) 
+    each social, key in socialList
+      .box-body(data-box=`iii-${key+1}`)
+        .flex
+          .flex-row-space
+
+            div= social.title
+            input.connect-radio-reset(
+              name="radio-c"
+              id="reset"
+              type="radio"
+            )
+
+          div= social.description
+          .line 
+          .flex-row
+            div(class=`cv-${social.icon}`)
+            a(href=`${social.link}`)= social.label
+.divider-48
+//part of my code
 .box__info-box-shadow
   p.text I am working on improving the candidate's experience during the job search time. I work every day with Remix, React, Hooks, Redux, NextJS, and Firebase with JavaScript and TypeScript to create amazing Apps. Lets have a chat!
-
 .divider-16
 .text__info-box 
   button.buton__normal--rosu
